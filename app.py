@@ -32,7 +32,7 @@ def api_paris():
 def mongraphique():
     return render_template("graphique.html")
 @app.route("/rapport")
-def mongraphique():
+def monhistogramme():
     return render_template("histogramme.html")
 
 
